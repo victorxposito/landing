@@ -44,9 +44,55 @@
           position: relative;
           right: 0;
           top: 50px;
-        }
+    }
   }
 
+}
+
+#about {
+	.about-grids .about-grid {
+		background: transparent;
+
+		.about-grid-info {
+			position: relative;
+
+			&::after {
+		          content: '';
+		          width: 0;
+		          height: 0;
+		          border-style: solid;
+		          border-width: 50px 0px 47px 50px;
+		          border-color: #00c86b transparent transparent transparent;
+		          position: absolute;
+		          right: 5%;
+		          top: 40%;
+		          transform: rotate(45deg);
+		    	}
+
+		    &.wrap-content-left::after {
+		    	right: auto;
+		    	left:5%;
+		    	transform: rotate(225deg);
+		    }
+
+			.wrap-content {
+				border: 1px solid #00c86b;
+				background: white;
+				padding: 2em 1em 1em 1em;
+				
+
+				h4 {
+					color:#00c86b;
+					border-bottom:none;
+					margin-bottom: 0;
+					padding: 0;
+				}
+				p {color:rgba(0, 0, 0, 0.87);}
+
+				
+			}
+		}
+	}
 }
 
 /* ... ALL TEAM PICS :: Content blocks Images ... */
@@ -351,7 +397,7 @@
   	span {background: none;padding: 0;}
   	&::after {content: none;}
   }
-  
+
   #team .bosses-area .m6 {
     width: 100%;
   }
