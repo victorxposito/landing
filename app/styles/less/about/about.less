@@ -21,12 +21,43 @@
 .team-header {
   margin-top: 8em;
 
+  h4 {
+    padding: 0;
+    margin:1em;
+    text-align: left;
+
+    span {
+      color:white;
+      text-shadow: 1px 1px 1px #111b0a;
+      background-color: rgba(0,0,0,.7);
+      padding:5px 20px;
+      font-size: 100%;
+    }
+
+    &::after {
+          content: '';
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 53px 30px 0 0;
+          border-color: rgba(0,0,0,.7) transparent transparent transparent;
+          position: relative;
+          right: 0;
+          top: 50px;
+        }
+  }
+
 }
 
 /* ... ALL TEAM PICS :: Content blocks Images ... */
 #team {
+  .container{
+    .grey-bg {background-color: #e9ebf2;}
+  }
   // Chairmen IMG
   .bosses-area {
+    margin-bottom: 0;
+
     .upp-boss-img {
       width: 300px;
       height: 300px;
@@ -52,6 +83,7 @@
 
   // Employees IMG
   .crew-area {
+
     .upp-team-img {
       width: 200px;
       height: 200px;
@@ -254,7 +286,7 @@
 
   // Employees section
   .crew-area {
-    padding: 30px 0;
+    padding: 0 30px;
 
     h5 {
       font-size: 20px;

@@ -6,7 +6,7 @@
     "_priority": "0.8",
     "_url": "/es/nosotros/",
     "departments": {
-      "title": "<span>Conoce</span> nuestros departamentos",
+      "title": "Conoce nuestros departamentos",
       "develop": {
         "img": "¡Todos los frikis reunidos!",
         "text": "Cordova, AngularJS, Java, CSS, UX… Somos los que hemos desarrollado la plataforma más sencilla (y más bonita) para que puedas <b>crear una aplicación móvil sin conocimientos de informática</b>. Trabajamos con metodologías ágiles porque somos conscientes de la importancia de la <b>innovación en el mundo empresarial</b> y cada día nos esforzamos en aprender algo nuevo para mejorar tantos los procesos como la plataforma. ¡Nos encanta la tecnología y somos un poco (bastante) freaks!",
@@ -24,7 +24,7 @@
       }
     },
     "team": {
-      "title": "<span>Conoce a</span> nuestro equipo",
+      "title": "Conoce a nuestro equipo",
       "admin": {
         "linkedin": "https://es.linkedin.com/in/noemidiazadministrativa",
         "name": "Noemí",

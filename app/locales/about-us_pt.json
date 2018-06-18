@@ -6,7 +6,7 @@
     "_priority": "0.8",
     "_url": "/pt/n\u00f3s/",
     "departments": {
-      "title": "<span>Conhece</span> os nossos departamentos",
+      "title": "Conhece os nossos departamentos",
       "develop": {
         "img": "Todos os frikis reunidos!",
         "text": "Cordova, AngularJS, Java, CSS, UX\u2026 Adoramos a tecnologia e somos um pouco freaks. Trabalhamos com metodologias \u00e1geis e estamos a mudar a forma nas quais as PME do mundo criam as suas apps m\u00f3veis. Todos os dias aprendemos algo novo.",
@@ -24,7 +24,7 @@
       }
     },
     "team": {
-      "title": "<span>Conhece</span> a nossa equipa",
+      "title": "Conhece a nossa equipa",
       "admin": {
         "linkedin": "https://es.linkedin.com/in/noemidiazadministrativa",
         "name": "Noem\u00ed",
